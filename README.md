@@ -72,15 +72,15 @@ It features advanced modules for **resume building**, **aptitude & technical tes
 
 | Screenshot | Description                        |
 |------------|------------------------------------|
-| ![Screenshot 1](screenshots/1.png) | 1. Website Homepage                |
-| ![Screenshot 2](screenshots/2.png) | 2. Student Dashboard               |
-| ![Screenshot 3](screenshots/3.png) | 3. Aptitude Test with Face Recognition |
-| ![Screenshot 4](screenshots/4.png) | 4. Aptitude Analysis               |
-| ![Screenshot 5](screenshots/5.png) | 5. Technical Coding Test           |
-| ![Screenshot 6](screenshots/6.png) | 6. AI-Proctored Mock Interview     |
-| ![Screenshot 7](screenshots/7.png) | 7. Resume Builder                  |
-| ![Screenshot 8](screenshots/8.png) | 8. Resume ATS Result               |
-| ![Screenshot 9](screenshots/9.png) | 9. Company / TPO Dashboard         |
+| ![Screenshot 1](screenshots/homepage.png) | 1. Website Homepage                |
+| ![Screenshot 2](screenshots/studentdashboard.png) | 2. Student Dashboard               |
+| ![Screenshot 3](screenshots/aptitudetest.png) | 3. Aptitude Test with Face Recognition |
+| ![Screenshot 4](screenshots/aptitudeanalysis.png) | 4. Aptitude Analysis               |
+| ![Screenshot 5](screenshots/dsatest.png) | 5. Technical Coding Test           |
+| ![Screenshot 6](screenshots/mockinterview.png) | 6. Proctored Mock Interview     |
+| ![Screenshot 7](screenshots/resumebuilder.png) | 7. Resume Builder                  |
+| ![Screenshot 8](screenshots/resumescanner.png) | 8. Resume ATS Result               |
+| ![Screenshot 9](screenshots/admindashboard.png) | 9. Company / Admin Dashboard         |
 
 ---
 
