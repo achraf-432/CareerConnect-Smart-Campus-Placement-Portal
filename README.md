@@ -108,6 +108,27 @@ It features advanced modules for **resume building**, **aptitude & technical tes
 
 ---
 
+## 🔐 API Configuration
+
+To enable AI-powered features such as interview feedback and resume scoring using Gemini AI, you'll need to set up your Gemini API Key.
+
+1. Get your Gemini API Key:
+   - Visit: https://aistudio.google.com/app/apikey
+   - Sign in with your Google account and generate a new API key.
+
+2. Add the API key to the respective .env files:
+
+📁 MockInter/.env
+📁 ResumeATS/.env
+
+GEMINI_API_KEY=your_api_key_here
+
+⚠️ Make sure to replace your_api_key_here with your actual API key. Do not share this key publicly.
+
+3. Restart the modules (MockInterview & ResumeATS) after setting the environment variables.
+
+---
+
 ### Steps
 
 1. **Clone the repository**
