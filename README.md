@@ -1,15 +1,14 @@
 # 🎓 CareerConnect – Smart Campus Placement Portal
 
-[![GitHub license](https://img.shields.io/github/license/xHarshit/CareerConnect-Smart-Campus-Placement-Porta)](https://github.com/xHarshit/CareerConnect-Smart-Campus-Placement-Porta/blob/main/LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/xHarshit/CareerConnect-Smart-Campus-Placement-Porta)](https://github.com/xHarshit/CareerConnect-Smart-Campus-Placement-Porta/issues)
-[![GitHub stars](https://img.shields.io/github/stars/xHarshit/CareerConnect-Smart-Campus-Placement-Porta)](https://github.com/xHarshit/CareerConnect-Smart-Campus-Placement-Porta/stargazers)
-
-
 CareerConnect is an integrated **AI-powered platform** designed to streamline and elevate the campus placement experience for **students**, **training and placement officers (TPOs)**, and **recruiters**.
 
 It features advanced modules for **resume building**, **aptitude & technical tests**, **AI-proctored interviews**, and **performance analytics**, making students industry-ready and boosting placement outcomes.
 
 > ⚠️ Note: The repository structure may seem a bit disorganized, but running each component step-by-step as shown below will successfully launch the full project.
+
+[![GitHub license](https://img.shields.io/github/license/xHarshit/CareerConnect-Smart-Campus-Placement-Portal)](https://github.com/xHarshit/CareerConnect-Smart-Campus-Placement-Portal/blob/main/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/xHarshit/CareerConnect-Smart-Campus-Placement-Portal)](https://github.com/xHarshit/CareerConnect-Smart-Campus-Placement-Portal/issues)
+[![GitHub stars](https://img.shields.io/github/stars/xHarshit/CareerConnect-Smart-Campus-Placement-Portal)](https://github.com/xHarshit/CareerConnect-Smart-Campus-Placement-Portal/stargazers)
 
 ---
 
