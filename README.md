@@ -103,8 +103,11 @@ It features advanced modules for **resume building**, **aptitude & technical tes
 
 ### Prerequisites
 
-- [MongoDB](https://www.mongodb.com/try/download/community) installed and running  
-- [Node.js](https://nodejs.org/en/download/) installed
+- ✅ MongoDB installed and running  
+  → [Download MongoDB](https://www.mongodb.com/try/download/community)
+
+- ✅ Node.js installed  
+  → [Download Node.js](https://nodejs.org/en/download/)
 
 ---
 
