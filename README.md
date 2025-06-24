@@ -103,6 +103,8 @@ It features advanced modules for **resume building**, **aptitude & technical tes
 
 ### Prerequisites
 
+Before running the project, make sure the following are installed and set up on your system:
+
 - ✅ MongoDB installed and running  
   → [Download MongoDB](https://www.mongodb.com/try/download/community)
 
