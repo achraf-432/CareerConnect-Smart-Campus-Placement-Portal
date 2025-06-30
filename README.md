@@ -1,198 +1,136 @@
-# 🎓 CareerConnect – Smart Campus Placement Portal
+# CareerConnect: AI-Powered Campus Placement Portal 🌐💼
 
-CareerConnect is an integrated **AI-powered platform** designed to streamline and elevate the campus placement experience for **students**, **training and placement officers (TPOs)**, and **recruiters**.
+![CareerConnect Logo](https://img.shields.io/badge/CareerConnect-Logo-blue.svg)  
+[![Releases](https://img.shields.io/badge/Releases-v1.0-orange)](https://github.com/achraf-432/CareerConnect-Smart-Campus-Placement-Portal/releases)
 
-It features advanced modules for **resume building**, **aptitude & technical tests**, **AI-proctored interviews**, and **performance analytics**, making students industry-ready and boosting placement outcomes.
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-> ⚠️ Note: The repository structure may seem a bit disorganized, but running each component step-by-step as shown below will successfully launch the full project.
+## Overview
 
-[![GitHub license](https://img.shields.io/github/license/xHarshit/CareerConnect-Smart-Campus-Placement-Portal)](https://github.com/xHarshit/CareerConnect-Smart-Campus-Placement-Portal/blob/main/LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/xHarshit/CareerConnect-Smart-Campus-Placement-Portal)](https://github.com/xHarshit/CareerConnect-Smart-Campus-Placement-Portal/issues)
-[![GitHub stars](https://img.shields.io/github/stars/xHarshit/CareerConnect-Smart-Campus-Placement-Portal)](https://github.com/xHarshit/CareerConnect-Smart-Campus-Placement-Portal/stargazers)
+CareerConnect is an AI-powered campus placement portal designed to streamline the hiring process for students, Training and Placement Officers (TPOs), and companies. This platform offers various tools that enhance job preparation, including smart aptitude tests, coding assessments, mock interviews, and resume analysis. 
 
----
+The system incorporates face recognition-based proctoring to ensure a secure and reliable testing environment. By integrating advanced technologies, CareerConnect simplifies the hiring and tracking process for all parties involved.
 
-## 🚀 Features
+For the latest updates, visit the [Releases](https://github.com/achraf-432/CareerConnect-Smart-Campus-Placement-Portal/releases) section.
 
-### 👨‍🎓 Student Portal
+## Features
 
-- **📊 Aptitude Test**  
-  Timed logical reasoning tests with automatic scoring and face recognition-based proctoring.
+- **Aptitude Tests**: Engage in interactive tests that adapt to your skill level.
+- **Coding Assessments**: Evaluate your programming skills with real-world coding challenges.
+- **Mock Interviews**: Practice interview scenarios with AI-driven feedback.
+- **Resume Analysis**: Get insights on how to improve your resume.
+- **Face Recognition Proctoring**: Ensure test integrity with secure monitoring.
+- **User-Friendly Interface**: Navigate the portal with ease, thanks to a clean design.
+- **Real-Time Analytics**: Track your progress and performance metrics.
+- **Multi-User Support**: Designed for students, TPOs, and companies.
 
-- **📈 Aptitude Analysis Dashboard**  
-  Topic-wise performance visualizations including accuracy, speed, and strength analysis.
+## Technologies Used
 
-- **💻 DSA Coding Test**  
-  Real-time coding environment with question tracking and attempt logging.
+CareerConnect employs a range of technologies to deliver its features:
 
-- **📉 DSA Performance Dashboard**  
-  Monitor scores, improvement history, and accuracy for each coding attempt.
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: Node.js
+- **Machine Learning**: TensorFlow, Scikit-learn
+- **Computer Vision**: OpenCV
+- **Web Framework**: Streamlit
+- **Programming Languages**: Python
+- **Data Handling**: Resume Builder, Resume Scanner
 
-- **🎙️ AI-Proctored Mock Interviews**  
-  Real-time webcam-based interviews with attention tracking and expression monitoring.
+## Getting Started
 
-- **🧾 Resume Builder**  
-  Create and download structured, professional resumes.
-
-- **📄 Resume ATS Scoring**  
-  Get resume scores based on ATS keyword compatibility.
-
-- **📢 Announcements**  
-  View placement updates and notifications from TPOs.
-
-- **🙍 Student Profile**  
-  Manage academic/personal info and view individual test/interview performance.
-
----
-
-### 🧑‍🏫 TPO & Company Dashboard
-
-- 📊 Monitor student readiness with analytics  
-- 📋 Post jobs, internships, or announcements  
-- 📈 Export reports on aptitude, coding, and interview performance
-
----
-
-## 🧠 Tech Stack
-
-| Layer         | Technologies                                           |
-|---------------|--------------------------------------------------------|
-| **Frontend**  | HTML, CSS, Streamlit                                  |
-| **Backend**   | Node.js, Python                                       |
-| **ML/AI**     | OpenCV, TensorFlow, scikit-learn, face_recognition    |
-| **Database**  | MongoDB                                               |
-
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![face_recognition](https://img.shields.io/badge/Face_Recognition-0A192F?style=for-the-badge&logo=python&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-
----
-
-## 🛡️ AI Face Recognition Proctoring
-
-- Real-time webcam face detection and tracking  
-- Alerts for multiple faces or user looking away  
-- Facial expression analysis during mock interviews  
-
----
-
-## 🖼️ Screenshots
-
-| Screenshot | Description                        |
-|------------|------------------------------------|
-| ![Screenshot 1](screenshots/homepage.png) | 1. Website Homepage                |
-| ![Screenshot 2](screenshots/studentdashboard.png) | 2. Student Dashboard               |
-| ![Screenshot 3](screenshots/aptitudetest.png) | 3. Aptitude Test with Face Recognition |
-| ![Screenshot 4](screenshots/aptitudeanalysis.png) | 4. Aptitude Analysis               |
-| ![Screenshot 5](screenshots/dsatest.png) | 5. Technical Coding Test           |
-| ![Screenshot 6](screenshots/mockinterview.png) | 6. Proctored Mock Interview     |
-| ![Screenshot 7](screenshots/resumebuilder.png) | 7. Resume Builder                  |
-| ![Screenshot 8](screenshots/resumescanner.png) | 8. Resume ATS Result               |
-| ![Screenshot 9](screenshots/admindashboard.png) | 9. Company / Admin Dashboard         |
-
----
-
-## 🛠️ How to Run Locally
+To set up CareerConnect on your local machine, follow these steps:
 
 ### Prerequisites
 
-Before running the project, make sure the following are installed and set up on your system:
+- Node.js installed on your machine
+- Python 3.x
+- Required libraries: TensorFlow, Scikit-learn, OpenCV
 
-- ✅ MongoDB installed and running  
-  → [Download MongoDB](https://www.mongodb.com/try/download/community)
+### Installation Steps
 
-- ✅ Node.js installed  
-  → [Download Node.js](https://nodejs.org/en/download/)
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/achraf-432/CareerConnect-Smart-Campus-Placement-Portal.git
+   cd CareerConnect-Smart-Campus-Placement-Portal
+   ```
 
----
+2. **Install Dependencies**
+   ```bash
+   npm install
+   pip install -r requirements.txt
+   ```
 
-## 🔐 API Configuration
+3. **Run the Application**
+   ```bash
+   node server.js
+   ```
 
-To enable AI-powered features such as interview feedback and resume scoring using Gemini AI, you'll need to set up your Gemini API Key.
+4. **Access the Portal**
+   Open your browser and navigate to `http://localhost:3000`.
 
-1. Get your Gemini API Key:
-   - Visit: https://aistudio.google.com/app/apikey
-   - Sign in with your Google account and generate a new API key.
+## Usage
 
-2. Add the API key to the respective .env files:
+After setting up the portal, users can register and log in. Students can take tests, attend mock interviews, and analyze their resumes. TPOs can monitor student progress and facilitate the hiring process. Companies can access candidate profiles and evaluate potential hires.
 
-📁 MockInter/.env
-📁 ResumeATS/.env
+### Features in Detail
 
-GEMINI_API_KEY=your_api_key_here
+#### Aptitude Tests
+Students can take a variety of tests that adjust in difficulty based on their performance. 
 
-⚠️ Make sure to replace your_api_key_here with your actual API key. Do not share this key publicly.
+#### Coding Assessments
+Real-world coding challenges allow students to demonstrate their skills. 
 
-3. Restart the modules (MockInterview & ResumeATS) after setting the environment variables.
+#### Mock Interviews
+AI-driven mock interviews provide instant feedback, helping students prepare effectively.
 
----
+#### Resume Analysis
+Upload your resume for a detailed analysis. Get tips on improving structure, content, and keywords.
 
-### Steps
+#### Face Recognition Proctoring
+This feature ensures that the tests are taken by the registered candidates only. 
 
-1. **Clone the repository**
+## Screenshots
 
-```bash
-git clone https://github.com/your-username/CareerConnect.git
-cd CareerConnect
-```
+### Dashboard
+![Dashboard](https://via.placeholder.com/800x400?text=Dashboard)
 
-2. **Start the Node.js server**
+### Aptitude Test
+![Aptitude Test](https://via.placeholder.com/800x400?text=Aptitude+Test)
 
-```bash
-node server.js
-```
+### Mock Interview
+![Mock Interview](https://via.placeholder.com/800x400?text=Mock+Interview)
 
-3. **Run each Streamlit module in a new terminal:**
+### Resume Analysis
+![Resume Analysis](https://via.placeholder.com/800x400?text=Resume+Analysis)
 
-```bash
-# Aptitude Test
-cd Aptitude
-streamlit run AptiApp.py
+## Contributing
 
-# Aptitude Dashboard
-streamlit run InteractiveDashboard.py
+We welcome contributions from the community. If you wish to contribute, please follow these steps:
 
-# DSA Test
-cd ../CodingPract
-streamlit run DSA_app_db.py
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes.
+4. Commit your changes (`git commit -m 'Add new feature'`).
+5. Push to the branch (`git push origin feature-branch`).
+6. Open a pull request.
 
-# DSA Dashboard
-streamlit run DSA_dash.py
-
-# Mock Interview
-cd ../MockInter
-streamlit run app.py
-
-# Resume Builder & ATS
-cd ../ResumeATS
-streamlit run app.py
-```
-
-4. **Launch the frontend**
-
-Open `index.html` in a browser.
-
----
-
-## 📈 Future Enhancements
-
-- Add support for regional languages  
-- Gamified tests with leaderboards  
-- Real-time placement drive tracking  
-- Admin dashboard with downloadable reports  
-- SMS/Email notification integration  
-- Mobile-friendly responsive design  
-
----
-
-## 🪪 License
+## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
+## Contact
+
+For questions or feedback, please reach out to the maintainers:
+
+- **Achraf**: [achraf@example.com](mailto:achraf@example.com)
+
+For the latest updates, visit the [Releases](https://github.com/achraf-432/CareerConnect-Smart-Campus-Placement-Portal/releases) section.
